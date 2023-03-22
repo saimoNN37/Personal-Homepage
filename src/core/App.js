@@ -1,16 +1,16 @@
 import { ThemeProvider } from "styled-components";
-import { Container } from "../Homepage/Container/styled";
+import { Container } from "../common/Container/styled";
+import Header from "../Homepage/Header";
 import { GlobalStyle } from "./Globalstyle";
 import { lightTheme } from "./theme";
 
 function App() {
   return (
     <ThemeProvider theme={lightTheme}>
-      <GlobalStyle>
+      <GlobalStyle />
         <Container>
-          
+          <Header />
         </Container>
-      </GlobalStyle>
     </ThemeProvider>
   );
 }
