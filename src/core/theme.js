@@ -6,6 +6,7 @@ mineShaft: "#252525",
 whiteLilac: "#FBFBFE",
 anakiwa: "8CC2FF",
 scienceBlue: "#0366D6",
+iron: "D1D5DA",
 };
 
 export const lightTheme = {
@@ -22,6 +23,16 @@ export const lightTheme = {
             text: color.white,
             shadowHover: color.anakiwa,
             background: color.scienceBlue
+        },
+        section: {
+            background: color.white,
+            header: color.mineShaft,
+            titleUnderLine: color.iron,
+        },
+        list: {
+            text: color.slateGray,
+            eclipse: color.scienceBlue,
         }
+    
     }
 };
