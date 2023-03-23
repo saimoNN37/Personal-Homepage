@@ -5,6 +5,7 @@ display: grid;
 grid-template-columns: auto 1fr;
 grid-gap: 64px;
 margin-top: 115px;
+margin-bottom: 63px;
 `;
 
 export const Photo = styled.img`
