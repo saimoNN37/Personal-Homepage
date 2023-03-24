@@ -32,6 +32,13 @@ export const lightTheme = {
         list: {
             text: color.slateGray,
             eclipse: color.scienceBlue,
+        },
+        footer: {
+            letsTalk: color.slateGray,
+            email: color.mineShaft,
+            icons: color.mineShaft,
+            aboutMe: color.mineShaft,
+            iconsHover: color.scienceBlue,
         }
     
     }
