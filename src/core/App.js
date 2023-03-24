@@ -1,5 +1,6 @@
 import { ThemeProvider } from "styled-components";
 import { Container } from "../common/Container/styled";
+import Footer from "../Homepage/Footer";
 import Header from "../Homepage/Header";
 import Skills from "../Homepage/Skills";
 import SkillsToLearn from "../Homepage/SkillsToLearn";
@@ -14,6 +15,7 @@ function App() {
           <Header />
           <Skills />
           <SkillsToLearn />
+          <Footer />
         </Container>
     </ThemeProvider>
   );
