@@ -39,6 +39,10 @@ export const lightTheme = {
             icons: color.mineShaft,
             aboutMe: color.mineShaft,
             iconsHover: color.scienceBlue,
+        },
+        portfolio: {
+            subHeader: color.mineShaft,
+            title: color.mineShaft,
         }
     
     }
