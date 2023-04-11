@@ -1,7 +1,7 @@
 import { Photo, HeaderWrapper, Details, ThisIs, Name, Text } from "./styled";
 import image from "./image/author.jpg";
 import { ButtonLink } from "../../common/ButtonLink/styled";
-import { ReactComponent as MessageIcon } from "./image/message.svg"
+import { ReactComponent as MessageIcon } from "./image/message.svg";
 import { email } from "../email";
 
 const Header = () => (
