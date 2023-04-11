@@ -6,6 +6,7 @@ import Skills from "../Homepage/Skills";
 import SkillsToLearn from "../Homepage/SkillsToLearn";
 import { GlobalStyle } from "./Globalstyle";
 import { lightTheme } from "./theme";
+import Portfolio from "../Homepage/Portfolio";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Header />
           <Skills />
           <SkillsToLearn />
+          <Portfolio />
           <Footer />
         </Container>
     </ThemeProvider>
