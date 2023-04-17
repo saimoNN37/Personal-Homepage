@@ -52,7 +52,7 @@ export const lightTheme = {
             tileLink: color.scienceBlue,
             paragraph: color.mineShaft,
             spinner: color.iron,
-            spinnerColor: color.scienceBlue,
+            spinnerColor: color.scienceBlue, 
         }
     
     }
