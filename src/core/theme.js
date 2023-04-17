@@ -7,8 +7,7 @@ whiteLilac: "#FBFBFE",
 anakiwa: "8CC2FF",
 scienceBlue: "#0366D6",
 iron: "D1D5DA",
-violet: "#090A3308"
-
+violet: "#090A3308",
 };
 
 export const lightTheme = {

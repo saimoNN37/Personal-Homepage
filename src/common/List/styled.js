@@ -8,6 +8,12 @@ export const StyledList = styled.ul`
     display: grid;
     grid-gap: 8px 32px;
     grid-template-columns: repeat(3, 1fr);
+    padding: 0;
+    @media (max-width: 767px) {
+        grid-template-columns: 1fr;
+        font-size: 14px;
+        margin: 12px 0 0;
+    }
 `;
 
 export const ListItem = styled.li`
@@ -20,11 +26,14 @@ align-items: center;
     content: "";
     width: 9px;
     height: 9px;
-    background-color: ${({theme}) => theme.elementColor.list.eclipse};
+    background-color: ${({ theme }) => theme.elementColor.list.eclipse};
     border-radius: 50%;
     display: inline-block;
     margin-right: 16px;
-    
-
+    @media (max-width: 767px) {
+        width: 6px;
+        height: 6px;
+        margin-right: 8px;
+    }
 }
 `;

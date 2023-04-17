@@ -7,6 +7,10 @@ export const SectionWrapper = styled.div`
      0px 16px 58px rgba(9, 10, 51, 0.03);
     padding: 32px;
     margin-bottom: 72px;
+    @media (max-width: 767px) {
+        padding: 16px;
+        margin-bottom: 50px;
+    }
     `;
 
 export const ListName = styled.h2`
@@ -16,4 +20,8 @@ export const ListName = styled.h2`
     margin: 0;
     padding: 0 0 15px;
     border-bottom: 1px solid #D1D5DA;
+    @media (max-width: 767px) {
+        font-size: 18px;
+        line-height: 22px;
+    }
 `;

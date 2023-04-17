@@ -10,6 +10,9 @@ export const List = styled.ul`
     list-style: none;
     padding: 0;
     gap: 32px;
+    @media (max-width: 767px) {
+        gap: 16px;
+    }
 `;
 
 export const StyledTile = styled.li`
@@ -20,6 +23,9 @@ export const StyledTile = styled.li`
     box-shadow: 0px -2px 50px ${({ theme }) => theme.elementColor.portfolio.shadow}, 0px 16px 58px ${({ theme }) => theme.elementColor.portfolio.shadow};
     background-color: ${({ theme }) => theme.elementColor.portfolio.background};
     border-radius: 4px;
+    @media (max-width: 767px) {
+        padding: 24px;
+    }  
 `;
 
 export const Container = styled.div`
