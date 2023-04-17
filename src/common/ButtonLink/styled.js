@@ -7,8 +7,7 @@ export const ButtonLink = styled.a`
     font-size: 20px;
     line-height: 24px;
     padding: 12px 16px;
-    display: grid;
-    grid-template-columns: auto 1fr;
+    display: inline-flex;
     align-items: center;
     text-decoration: none;
     gap: 16px;
@@ -26,5 +25,8 @@ export const ButtonLink = styled.a`
 
     &:active {
         box-shadow: inset 0px 2px 0px rgba(20, 70, 32, 0.2);
+    }
+    @media (max-width: 767px) {
+        font-size: 18px;
     }
 `;
