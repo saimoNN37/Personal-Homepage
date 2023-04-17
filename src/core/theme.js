@@ -50,6 +50,9 @@ export const lightTheme = {
             tileTitle: color.scienceBlue,
             background: color.white,
             tileLink: color.scienceBlue,
+            paragraph: color.mineShaft,
+            spinner: color.iron,
+            spinnerColor: color.scienceBlue,
         }
     
     }

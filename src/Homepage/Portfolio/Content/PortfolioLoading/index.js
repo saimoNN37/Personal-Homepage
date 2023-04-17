@@ -1,4 +1,9 @@
+import { Paragraph, Spinner, Wrapper } from "./styled";
+
 const PortfolioLoading = () => (
-    <p>loading</p>
+    <Wrapper>
+        <Paragraph>Please wait, projects are&nbsp;being&nbsp;loaded...</Paragraph>
+        <Spinner />
+    </Wrapper>
 );
 export default PortfolioLoading;
