@@ -7,6 +7,8 @@ whiteLilac: "#FBFBFE",
 anakiwa: "8CC2FF",
 scienceBlue: "#0366D6",
 iron: "D1D5DA",
+violet: "#090A3308"
+
 };
 
 export const lightTheme = {
@@ -43,6 +45,12 @@ export const lightTheme = {
         portfolio: {
             subHeader: color.mineShaft,
             title: color.mineShaft,
+            border: color.iron,
+            shadow: color.violet,
+            secondText: color.slateGray,
+            tileTitle: color.scienceBlue,
+            background: color.white,
+            tileLink: color.scienceBlue,
         }
     
     }
