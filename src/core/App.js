@@ -5,12 +5,15 @@ import Header from "../Homepage/Header";
 import Skills from "../Homepage/Skills";
 import SkillsToLearn from "../Homepage/SkillsToLearn";
 import { GlobalStyle } from "./Globalstyle";
-import { lightTheme } from "./theme";
+import { darkTheme, lightTheme } from "./theme";
 import Portfolio from "../Homepage/Portfolio";
+import { useSelector } from "react-redux";
+import { selectIsDarkTheme } from "../common/ThemeSwitcher/themeSwitchSlice";
 
 function App() {
+  const darkModeOff = useSelector(selectIsDarkTheme);
   return (
-    <ThemeProvider theme={lightTheme}>
+    <ThemeProvider theme={darkModeOff ? darkTheme : lightTheme}>
       <GlobalStyle />
         <Container>
           <Header />

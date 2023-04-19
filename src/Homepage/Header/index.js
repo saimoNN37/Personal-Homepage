@@ -3,6 +3,7 @@ import image from "./image/author.jpg";
 import { ButtonLink } from "../../common/ButtonLink/styled";
 import { ReactComponent as MessageIcon } from "./image/message.svg";
 import { email } from "../email";
+import ThemeSwitcher from "../../common/ThemeSwitcher";
 
 const Header = () => (
     <HeaderWrapper>
@@ -19,6 +20,7 @@ const Header = () => (
             Hire Me
             </ButtonLink>
         </Details>
+        <ThemeSwitcher />
     </HeaderWrapper>
 );
 

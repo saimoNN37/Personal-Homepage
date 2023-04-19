@@ -53,6 +53,64 @@ export const lightTheme = {
             paragraph: color.mineShaft,
             spinner: color.iron,
             spinnerColor: color.scienceBlue, 
+        },
+        themeSwitch: {
+            text: color.slateGray,
+            background: color.mercury,
+            switcherBackgroung: color.slateGray,
+        }
+    
+    }
+};
+
+export const darkTheme = {
+    elementColor: {
+        site: {
+            background: color.whiteLilac,
+            text: color.slateGray,
+        },
+        header: {
+            thisIs: color.slateGray,
+            name: color.mineShaft,
+        },
+        buttonLink: {
+            text: color.white,
+            shadowHover: color.anakiwa,
+            background: color.scienceBlue
+        },
+        section: {
+            background: color.white,
+            header: color.mineShaft,
+            titleUnderLine: color.iron,
+        },
+        list: {
+            text: color.slateGray,
+            eclipse: color.scienceBlue,
+        },
+        footer: {
+            letsTalk: color.slateGray,
+            email: color.mineShaft,
+            icons: color.mineShaft,
+            aboutMe: color.mineShaft,
+            iconsHover: color.scienceBlue,
+        },
+        portfolio: {
+            subHeader: color.mineShaft,
+            title: color.mineShaft,
+            border: color.iron,
+            shadow: color.violet,
+            secondText: color.slateGray,
+            tileTitle: color.scienceBlue,
+            background: color.white,
+            tileLink: color.scienceBlue,
+            paragraph: color.mineShaft,
+            spinner: color.iron,
+            spinnerColor: color.scienceBlue, 
+        },
+        themeSwitch: {
+            text: color.slateGray,
+            background: color.mercury,
+            switcherBackgroung: color.slateGray,
         }
     
     }
