@@ -57,7 +57,7 @@ export const lightTheme = {
         themeSwitch: {
             text: color.slateGray,
             background: color.mercury,
-            switcherBackgroung: color.slateGray,
+            switcherBackground: color.slateGray,
         }
     
     }

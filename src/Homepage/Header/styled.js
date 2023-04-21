@@ -4,7 +4,7 @@ export const HeaderWrapper = styled.div`
 display: grid;
 grid-template-columns: auto 1fr;
 grid-gap: 64px;
-margin-top: 115px;
+margin-top: -10px;
 margin-bottom: 63px;
 
 @media (max-width: 767px) {

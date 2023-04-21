@@ -9,6 +9,7 @@ import { darkTheme, lightTheme } from "./theme";
 import Portfolio from "../Homepage/Portfolio";
 import { useSelector } from "react-redux";
 import { selectIsDarkTheme } from "../common/ThemeSwitcher/themeSwitchSlice";
+import ThemeSwitcher from "../common/ThemeSwitcher";
 
 function App() {
   const darkModeOff = useSelector(selectIsDarkTheme);
@@ -16,6 +17,7 @@ function App() {
     <ThemeProvider theme={darkModeOff ? darkTheme : lightTheme}>
       <GlobalStyle />
         <Container>
+          <ThemeSwitcher />
           <Header />
           <Skills />
           <SkillsToLearn />
